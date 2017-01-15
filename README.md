@@ -15,7 +15,7 @@ npm install vue2-portal
 ```javascript
 import Portal from 'vue2-portal';
 
-Vue.use(Portal);
+Portal.install(Vue);
 ```
 
 Wrap the component that you want to transfer inside a `<portal></portal>` component
